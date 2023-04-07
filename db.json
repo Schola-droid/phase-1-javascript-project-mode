@@ -1,0 +1,38 @@
+{
+  "schedules": [
+    {
+      "dayOfWeek": "Monday",
+      "startTime": "Fri Apr 07 2023 15:14",
+      "endTime": "Fri Apr 07 2023 16:15",
+      "id": 8,
+      "comment": ""
+    },
+    {
+      "dayOfWeek": "Tuesday",
+      "startTime": "Fri Apr 07 2023 15:14",
+      "endTime": "Fri Apr 07 2023 16:15",
+      "id": 9,
+      "comment": ""
+    },
+    {
+      "dayOfWeek": "Wednesday",
+      "startTime": "Fri Apr 07 2023 15:14",
+      "endTime": "Fri Apr 07 2023 16:15",
+      "id": 10,
+      "comment": "awesome"
+    },
+    {
+      "dayOfWeek": "Thursday",
+      "startTime": "Fri Apr 07 2023 15:14",
+      "endTime": "Fri Apr 07 2023 16:15",
+      "id": 11,
+      "comment": ""
+    },
+    {
+      "dayOfWeek": "Monday",
+      "startTime": "Fri Apr 07 2023 15:16",
+      "endTime": "Fri Apr 07 2023 16:15",
+      "id": 12
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white; /* Set text color to white */
+  } 
+  
+  #h1 {
+    margin-top: 50px;
+    color: white; /* Set heading color to white */
+  }
+  
+  #comment-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white; /* Set label text color to white */
+  }
+  
+  #comment-form textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    resize: none;
+    margin-bottom: 20px;
+    color: rgb(7, 7, 7); /* Reset textarea color to black */
+  }
+  
+  #comment-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  #comments-container {
+    margin-top: 50px;
+  }
+  
+  .comment {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .comment p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: white; /* Set comment text color to white */
+  }
+  
+  .comment .rating {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .comment .rating label {
+    font-size: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: white; /* Set rating label color to white */
+  }
+  
+  .comment .rating input[type="radio"] {
+    display: none;
+  }
+  
+  .comment .rating input[type="radio"]:checked ~ label {
+    color: #FFD700;
+  }
+  
+  /* Styling for the modal */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(238, 242, 244, 0.99);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    width: 80%;
+    max-width: 600px;
+    color: black; /* Reset modal content color to black */
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .modal-header h2 {
+    margin: 0;
+    color: white; /* Set modal heading color to white */
+  }
+  
+  .modal-close-btn {
+    font-size: 20px;
+    font-weight: bold;
+    color: #feffff;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+  }
+  
+  .modal-close-btn:hover,
+  .modal-close-btn:focus {
+    color: #fdfcfc;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white; /* Set modal form label color to white */
+  }
+  
+  
+  .modal-form input,
+  .modal-form select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  .modal-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  

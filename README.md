@@ -170,3 +170,30 @@ You can consult the [json-server docs][] for more information.
 - [json-server][]
 
 [json-server]: https://www.npmjs.com/package/json-server
+
+Sleeping Schedule App: LALA: Man is a genius when he is dreaming
+Author
+Scholastica Nzomo
+
+Description
+This is a web application that allows the user to manage their sleeping schedule. The user can set up their sleep time for each day of the week, edit or delete the schedule, and leave comments about their sleep quality.
+
+Project Setup Instructions
+Clone the repository: git clone git@github.com:Schola-droid/phase-1-javascript-project-mode.git
+Navigate to the project directory: cd phase-1-javascript-project-mode
+Open the application in your browser at http://localhost:3000/schedules
+Live Site
+This project is live on GitHub Pages at https://github.com/Schola-droid/phase-1-javascript-project-mode
+
+Copyright and License
+The MIT License (MIT)
+(c) 2023 Scholastica Nzomo
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the right to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies 
+of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall 
+be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, 
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

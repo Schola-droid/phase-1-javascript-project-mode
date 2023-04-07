@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LALA</title>
+  <link rel="stylesheet" href="index.css">
+  <style>
+    body {
+      background-image: url("https://i.pinimg.com/750x/70/09/e8/7009e8d6d4e29fab85f7c14a2ab93039.jpg");
+      background-repeat: repeat;
+      background-size: top;
+    }
+  </style>
+</head>
+<body>
+  <h1 id = "h1">LALA: Man is a genius when he is dreaming</h1>
+
+  <div class="form-container">
+    <h2>Set Your Sleeping Schedule</h2>
+    <form id="sleep-form">
+      <div class="form-group">
+        <label for="day-of-week">Day of Week:</label>
+        <select id="day-of-week" name="day-of-week" required>
+          <option value="" selected disabled>Select Day of Week</option>
+          <option value="Monday">Monday</option>
+          <option value="Tuesday">Tuesday</option>
+          <option value="Wednesday">Wednesday</option>
+          <option value="Thursday">Thursday</option>
+          <option value="Friday">Friday</option>
+          <option value="Saturday">Saturday</option>
+          <option value="Sunday">Sunday</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="start-time">Start Time:</label>
+        <input type="time" id="start-time" name="start-time" required>
+      </div>
+      <div class="form-group">
+        <label for="end-time">End Time:</label>
+        <input type="time" id="end-time" name="end-time" required>
+      </div>
+      <button type="submit" id="submit-btn">Set Schedule</button>
+    </form>
+  </div>
+
+  <div class="schedule-container">
+    <h2>Your Sleeping Schedule</h2>
+    <ul id="schedule-list"></ul>
+  </div>
+
+  <div class="form-container">
+    <h2>Leave a Comment</h2>
+    <form id="comment-form">
+     
+        <label for="comment">Comment:</label>
+      <input type="text" placeholder="comment" id="comment">
+
+      <input type="submit" value = "comment" class="leave-comment">
+    </form>
+  </div>
+
+  <div class="comment-container">
+    <div id="comments-container"></div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
